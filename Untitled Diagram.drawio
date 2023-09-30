@@ -1,22 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-30T00:09:06.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="02ppCQZGMrf1vgQYKzMp" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-30T00:18:21.669Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="82jDcpMUj56-pa8Sunef" version="21.8.2" type="github">
   <diagram name="Page-1" id="gKchylsYW7Ik9aZ6e32E">
     <mxGraphModel dx="880" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AKKfzESJ1LxGghhMYYDp-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="280" y="95" width="310" height="310" as="geometry" />
-        </mxCell>
-        <object label="Actor" Admin="" id="AKKfzESJ1LxGghhMYYDp-4">
-          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-            <mxGeometry x="150" y="181" width="30" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="AKKfzESJ1LxGghhMYYDp-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="150" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="AKKfzESJ1LxGghhMYYDp-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="300" y="490" width="400" height="400" as="geometry" />
+          <mxGeometry x="290" y="480" width="400" height="400" as="geometry" />
         </mxCell>
         <mxCell id="AKKfzESJ1LxGghhMYYDp-8" value="Seller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="630" width="40" height="80" as="geometry" />
@@ -69,8 +58,8 @@
             <mxPoint x="570" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AKKfzESJ1LxGghhMYYDp-53" value="Online Bidding System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="390" y="490" width="200" height="30" as="geometry" />
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-53" value="Online Bidding System" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="480" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AKKfzESJ1LxGghhMYYDp-54" value="" style="endArrow=none;html=1;rounded=0;entryX=0.008;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AKKfzESJ1LxGghhMYYDp-19" target="AKKfzESJ1LxGghhMYYDp-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -109,6 +98,42 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="640" as="sourcePoint" />
             <mxPoint x="780" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-59" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-60" value="Online Bidding System" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="325" y="80" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-61" value="View Details for both buyer and seller" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-62" value="View Product Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-64" value="Check Bidding Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-65" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-66" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AKKfzESJ1LxGghhMYYDp-62" target="AKKfzESJ1LxGghhMYYDp-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKKfzESJ1LxGghhMYYDp-67" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="360" as="sourcePoint" />
+            <mxPoint x="170" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="360" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
