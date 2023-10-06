@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T13:50:16.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JExFMTw7SqzC9lUJEjkC" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T14:17:35.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="M6xVRXUBuasBfx9RzHvC" version="22.0.3" type="github">
   <diagram name="Page-1" id="Znc8qq36XgHSd02WgDPL">
     <mxGraphModel dx="706" dy="1519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -143,6 +143,84 @@
         </mxCell>
         <mxCell id="LB12NdZ8bNIuQgrU7avO-100" value="Class Diagram for Online Bidding System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="220" y="-610" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-131" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;seller1&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;SellerID: 205&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;email: glory@gmail.com&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;password: *****&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fullName: Godwin Glory&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Register()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+login ()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Create Auction()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+BrowseCatalog()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Manage Auction()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-10" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-132" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Item1&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;ItemID: 105&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;name: smart Watch&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Description: &quot;Vintage&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;startingBid: $100&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;endDate: 10/06/2023&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;seller: &quot;Godwin Glory&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="20" width="165" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-133" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;Buyer1&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;BuyerID: 208&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Email: pavankm@yahoo.com&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;password: ********&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fullName: Pavan Kumar&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Register()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+login ()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PlaceBidAuction()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+BrowseCatalog()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+MakePayement()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-134" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="110" as="sourcePoint" />
+            <mxPoint x="270" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-135" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="LB12NdZ8bNIuQgrU7avO-134">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-136" value="1..*" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="LB12NdZ8bNIuQgrU7avO-134">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-137" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="LB12NdZ8bNIuQgrU7avO-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="130" as="sourcePoint" />
+            <mxPoint x="490" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-138" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="LB12NdZ8bNIuQgrU7avO-137">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-139" value="1..*" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="LB12NdZ8bNIuQgrU7avO-137">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-140" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Item1&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;--&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="160" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-141" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Payment1&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;paymentID: 305&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;name: smart Watch&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Amount: $100&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;status: &lt;span style=&quot;background-color: initial;&quot;&gt;&quot;Paid&quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;I&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="70" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-142" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="130" as="sourcePoint" />
+            <mxPoint x="710" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-143" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="LB12NdZ8bNIuQgrU7avO-142">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-144" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="LB12NdZ8bNIuQgrU7avO-142">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-145" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="690" y="140" as="geometry">
+            <mxPoint x="14" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB12NdZ8bNIuQgrU7avO-146" value="Object Diagram for Online Bidding System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="-60" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
