@@ -34,6 +34,13 @@
         a:hover {
             color: #8a2be2; /* Slightly darker indigo on hover */
         }
+
+        /* Semi-transparent background for text */
+        .text-bg {
+            background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+            padding: 15px; /* Add some padding for better readability */
+            border-radius: 5px; /* Rounded corners for the background */
+        }
     </style>
 </head>
 <body>
@@ -51,10 +58,10 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title">Project Overview</h2>
-                        <p class="card-text">
+                        <p class="card-text text-bg">
                             The project "Online Bidding System" is the software developed to simplify the communication process between the Seller and the Buyer. The software operators include the admin, the Seller, and the Buyers. The seller is responsible for selling a product on the site where other people can buy it based on their winning in the auction. This information is stored in the database along with their details.
                         </p>
-                        <p class="card-text">
+                        <p class="card-text text-bg">
                             The admin can view Customer and Seller details, Auction details, Auction winning report, and Product details. When a person places a bid on a particular product, then they are eligible to place an order for the product when they win the auction by the end of the date when the auction closes. The system can thus reduce complexity in maintaining Bidding details and ease the process of Auction for a Product. The project is developed on the ASP .Net platform and supported by an SQL database to store user-specific details.
                         </p>
                     </div>
