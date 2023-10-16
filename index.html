@@ -41,6 +41,13 @@
             padding: 15px; /* Add some padding for better readability */
             border-radius: 5px; /* Rounded corners for the background */
         }
+
+        /* Rectangular profile image */
+        .profile-image {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            height: auto; /* Maintain the image's aspect ratio */
+            object-fit: cover; /* Crop the image if necessary to fit within the container */
+        }
     </style>
 </head>
 <body>
@@ -51,7 +58,7 @@
 
         <div class="row mt-4">
             <div class="col-md-4 text-center">
-                <img src="https://raw.githubusercontent.com/MounicaMannam/GVSU-CIS641-ProjTech/main/artifacts/ProjTech%20Logo.jpg" alt="ProjTech Logo" class="img-fluid rounded-circle">
+                <img src="https://raw.githubusercontent.com/MounicaMannam/GVSU-CIS641-ProjTech/main/artifacts/ProjTech%20Logo.jpg" alt="ProjTech Logo" class="img-fluid profile-image">
             </div>
 
             <div class="col-md-8">
