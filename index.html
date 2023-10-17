@@ -11,6 +11,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <style>
+        /* Your existing CSS styles here */
+
         /* Gradient background */
         body {
             background: linear-gradient(to bottom, #87CEEB, #f9e0b0); /* Gradient from light blue to light sandy tone */
@@ -48,6 +50,22 @@
             height: auto; /* Maintain the image's aspect ratio */
             object-fit: cover; /* Crop the image if necessary to fit within the container */
         }
+
+        /* New styles for horizontal arrangement */
+        .horizontal-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .horizontal-section h2 {
+            flex-basis: 100%;
+            margin-top: 20px;
+        }
+        .horizontal-section ul {
+            flex-basis: 30%; /* Adjust the width as needed */
+            list-style: none;
+            padding: 0;
+        }
     </style>
 </head>
 <body>
@@ -76,8 +94,8 @@
             </div>
         </div>
 
-        <section class="mt-4">
-         <h2>Project Artifacts</h2>
+        <div class="horizontal-section">
+            <h2>Project Artifacts</h2>
             <ul>
                 <li><a href="https://github.com/MounicaMannam/GVSU-CIS641-ProjTech/blob/main/artifacts/System%20Request.pdf" target="_blank">System Request</a></li>
                 <li><a href="https://github.com/MounicaMannam/GVSU-CIS641-ProjTech/blob/main/artifacts/Use%20Case%20Diagrams.pdf" target="_blank">Use Case Diagrams</a></li>
@@ -86,23 +104,19 @@
                 <li><a href="https://github.com/MounicaMannam/GVSU-CIS641-ProjTech/blob/main/artifacts/Class%20Diagram.pdf" target="_blank">Class Diagram</a></li>
                 <li><a href="https://github.com/MounicaMannam/GVSU-CIS641-ProjTech/blob/main/artifacts/Object%20Diagram.pdf" target="_blank">Object Diagram</a></li>
             </ul>
-        </section>
 
-        <section class="mt-4">
             <h2>Project Documents</h2>
             <ul>
                 <li><a href="https://github.com/MounicaMannam/GVSU-CIS641-ProjTech/blob/main/docs/proposal-template.md" target="_blank">System Proposal</a></li>
                 <li><a href="https://github.com/MounicaMannam/GVSU-CIS641-ProjTech/blob/main/docs/software_requirements_specification.md" target="_blank">Software Requirement Specifications</a></li>
             </ul>
-        </section>
 
-        <footer class="mt-4">
             <h2>Contact Us</h2>
             <ul>
-                <li>Email: <a href="projtechlite@gmail.com"></a>projtechlite@gmail.com</li>
+                <li>Email: <a href="mailto:projtechlite@gmail.com">projtechlite@gmail.com</a></li>
                 <li>GitHub Repository: <a href="https://github.com/MounicaMannam/GVSU-CIS641-ProjTech" target="_blank">GitHub Repo</a></li>
             </ul>
-        </footer>
+        </div>
     </div>
 </body>
 </html>
