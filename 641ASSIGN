@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T14:11:13.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KbQDPtEqk-ZoeNy8apfs" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T23:37:23.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="d9f6odzauBikpy_TGutQ" version="22.0.8" type="github">
   <diagram name="Page-1" id="b7_PxLGI8rusfAHF2rkl">
     <mxGraphModel dx="706" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-57" value="a. Class Diagram for professer and student in relation to degree program" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="30" width="520" height="50" as="geometry" />
+          <mxGeometry x="50" y="50" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;Degree Program&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-ProgramID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Description: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ProfessorID: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get Program()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ set program()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="242.5" y="370" width="160" height="140" as="geometry" />
@@ -200,6 +200,12 @@
             <mxPoint x="252.5" y="1021" as="sourcePoint" />
             <mxPoint x="418" y="1020" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6-YsDZVWqslL00mBRJpl-6" value="CIS 641 - Assignment Class Diagrams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="10" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-YsDZVWqslL00mBRJpl-7" value="Question 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89.75" y="40" width="80.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
