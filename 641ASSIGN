@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T00:09:38.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="WznwBWtzOIZYb1DEAAZf" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T01:39:50.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uukvqOkswAFmrfZdND_X" version="22.0.8" type="github">
   <diagram name="Page-1" id="b7_PxLGI8rusfAHF2rkl">
     <mxGraphModel dx="706" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-57" value="a. Class Diagram for professer and student in relation to degree program" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="60" y="10" width="520" height="30" as="geometry" />
+          <mxGeometry x="60" y="30" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;Degree Program&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-ProgramID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Description: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ProfessorID: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get Program()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ set program()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="242.5" y="370" width="160" height="140" as="geometry" />
@@ -183,7 +183,7 @@
             <mxPoint x="415" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-175" value="b. Class Diagram for a person and email&amp;nbsp; relationship" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-175" value="b. Class Diagram for a person and email registration&amp;nbsp; relationship" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="535" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-176" value="c.&amp;nbsp; Class Diagram for&amp;nbsp; a person in relation to a registered Spotify Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
