@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T00:41:34.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CMoNourMSR0A79zQ-Pxl" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T00:48:01.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bnRYr-D0WSt2LQA4uZ3K" version="22.0.8" type="github">
   <diagram name="Page-1" id="b7_PxLGI8rusfAHF2rkl">
     <mxGraphModel dx="706" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
           <mxGeometry x="257.5" y="715" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-85" value="0..*" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="382.5" y="715" width="35" height="40" as="geometry" />
+          <mxGeometry x="380" y="715" width="37.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-86" value="register to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="297.5" y="630" width="60" height="30" as="geometry" />
@@ -110,8 +110,8 @@
         <mxCell id="bgL6DrhmVARBndDH99-K-140" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;Harbor&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-cityGEOID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-time of the day: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Water Temp: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-AirTemp: Double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Date: date&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCityName()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getFishtype()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Update()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="230" y="1430" width="160" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-141" value="Visits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="390" y="1350.5" width="60" height="30" as="geometry" />
+        <mxCell id="bgL6DrhmVARBndDH99-K-141" value="Visits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-142" value="HasA&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=45;" parent="1" vertex="1">
           <mxGeometry x="187.5" y="1365.5" width="70" height="30" as="geometry" />
@@ -154,9 +154,9 @@
         <mxCell id="bgL6DrhmVARBndDH99-K-165" value="1..1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="376" y="910" width="35" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-168" value="shared to" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-168" value="&amp;nbsp; shared to" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.2505" y="1" width="160" relative="1" as="geometry">
-            <mxPoint x="372.5" y="1031" as="sourcePoint" />
+            <mxPoint x="380" y="1031" as="sourcePoint" />
             <mxPoint x="292.5" y="1031" as="targetPoint" />
             <Array as="points">
               <mxPoint x="334" y="1030" />
