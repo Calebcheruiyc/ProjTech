@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T00:05:14.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cpCXdjN83fc125__iRnc" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T00:20:16.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Il_nAAc_ILCcYYGHFqEO" version="22.0.8" type="github">
   <diagram name="Page-1" id="b7_PxLGI8rusfAHF2rkl">
     <mxGraphModel dx="706" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
         <mxCell id="bgL6DrhmVARBndDH99-K-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;Degree Program&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-ProgramID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Description: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ProfessorID: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get Program()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ set program()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="242.5" y="370" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-69" value="specifies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-69" value="specify to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="402.5" y="290.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-70" value="Assigned to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="bgL6DrhmVARBndDH99-K-81" value="1..1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="142.25" y="290.5" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-82" value="1..1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-82" value="1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="257.5" y="630" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-83" value="0..*" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="1" connectable="0" vertex="1">
@@ -69,7 +69,7 @@
             <mxPoint x="44" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-84" value="1..1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-84" value="1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="257.5" y="715" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-85" value="0..*" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -90,7 +90,7 @@
         <mxCell id="bgL6DrhmVARBndDH99-K-94" value="1..1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="257.5" y="910" width="35" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-96" value="1..5" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-96" value="0..5" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="262.5" y="1000" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-97" value="1..1" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -99,7 +99,7 @@
         <mxCell id="bgL6DrhmVARBndDH99-K-136" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;Salmon&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-fishType: string&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-fish Size: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-fishWeight: Double&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Move(): Void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getHarborName (): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Update()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="415" y="1160" width="160" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-138" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;City&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-CityGEOID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Address: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Update()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+HasHarbor()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-138" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;City&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-CityGEOID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Address: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Update()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Ha)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="60" y="1160" width="190" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bgL6DrhmVARBndDH99-K-139" value="0..1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="1" connectable="0" vertex="1">
@@ -179,7 +179,7 @@
         <mxCell id="bgL6DrhmVARBndDH99-K-176" value="c.&amp;nbsp; Class Diagram for&amp;nbsp; a person in relation to a registered Spotify Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="30" y="820" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bgL6DrhmVARBndDH99-K-177" value="QUESTION 2.&amp;nbsp; Class Diagram for GVSU Tracking system for Slmon that Visits the harbor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="bgL6DrhmVARBndDH99-K-177" value="QUESTION 2.&amp;nbsp; Class Diagram for GVSU Tracking system for Salmon that Visits the harbor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="22.5" y="1110" width="565" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6-YsDZVWqslL00mBRJpl-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.327;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bgL6DrhmVARBndDH99-K-91">
