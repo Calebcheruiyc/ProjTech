@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T05:35:36.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6HJPxILth09cF0jFIHTU" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T05:40:51.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pq82PHUwWhCwrSrbzxVd" version="22.1.3" type="github">
   <diagram name="Page-1" id="OG9XARLu_X4fbzeJdVaa">
     <mxGraphModel dx="1708" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,164 +14,164 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-61" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;Product&lt;/b&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Product_Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Product_Name: nvarchar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Category_Id: nvarchar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- LDescription: nvarchar&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- SDescripton: nvarchar&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Price: decimal&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Copyrights: nvarchar&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Id: nvarchar&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+AddProduct(): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+UpdateProduct(): void&lt;br&gt;+DeleteProduct(): void.&lt;br&gt;+GetProductDetails(): ProductDetails&lt;br&gt;+ GetProductsByCategory(categoryId: nvarchar): List&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="37.5" y="80" width="315" height="240" as="geometry" />
+          <mxGeometry x="-772.5" y="90" width="315" height="240" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-81" value="&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;&amp;lt;&amp;lt;preconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product details are valid and not already existing()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- Product exists in the system()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color); text-align: left;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;lt;&amp;lt;Postconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product is successfully added to the system()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product details are updated()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product is removed from the system()&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="410" y="230" width="280" height="150" as="geometry" />
+          <mxGeometry x="-400" y="240" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-88" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="352.5" y="270" as="sourcePoint" />
-            <mxPoint x="412.5" y="270" as="targetPoint" />
+            <mxPoint x="-457.5" y="280" as="sourcePoint" />
+            <mxPoint x="-397.5" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="352.5" y="270" />
+              <mxPoint x="-457.5" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-90" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductDetails&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Product: Product&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Images: List&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;+ DisplayDetails(): void&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="440" y="100" width="140" height="120" as="geometry" />
+          <mxGeometry x="-370" y="110" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-91" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="352.5" y="150" as="sourcePoint" />
-            <mxPoint x="440" y="150" as="targetPoint" />
+            <mxPoint x="-457.5" y="160" as="sourcePoint" />
+            <mxPoint x="-370" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-92" value=" Class Diagram 1: Product Management" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry y="30" width="320" height="40" as="geometry" />
+          <mxGeometry x="-810" y="40" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-93" value=" Class Diagram 2: Bidding Management" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="390" width="320" height="40" as="geometry" />
+          <mxGeometry x="-830" y="400" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="toqwwro1pnexpCAOvcfP-94" target="toqwwro1pnexpCAOvcfP-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-94" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;  Bid&lt;/b&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Bid_Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;-Product_Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Current_Price: nvarchar&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Previous_Price: decimal&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Bidding_Price: decimal&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Count: int&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Bidder_Id: nvarchar&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- BidStartDate: Datetime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- BidEndDate: Datetime&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PlaceBid(bidderId: nvarchar, biddingPrice: decimal): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+UpdateBid(bidId: int, newBiddingPrice: decimal): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+CloseBid(bidId: int): void()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+GetBidDetails(bidId: int): BidDetails&lt;br&gt;+GetActiveBids(): List &amp;lt;Bid&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="440" width="330" height="260" as="geometry" />
+          <mxGeometry x="-800" y="450" width="330" height="260" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-95" value="&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;&amp;lt;&amp;lt;preconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- Bid is active, and biddingPrice is higher than the current price()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- Bid exists, and newBiddingPrice is higher than the current price()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Bid exists, and BidEndDate has passed&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color); text-align: left;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;lt;&amp;lt;Postconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- Bid is placed successfully()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- Bid is updated successfully.)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Bid is closed, and winner is determined&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="400" y="590" width="367.5" height="170" as="geometry" />
+          <mxGeometry x="-410" y="600" width="367.5" height="170" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-96" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="650" as="sourcePoint" />
-            <mxPoint x="400" y="650" as="targetPoint" />
+            <mxPoint x="-470" y="660" as="sourcePoint" />
+            <mxPoint x="-410" y="660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="650" />
+              <mxPoint x="-470" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-97" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;nbsp;BidDetails&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;-Bid: Bid&lt;br&gt;- ProductBid: List&amp;lt;ProductBid&amp;gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;+ DisplayDetails(): void&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="425" y="460" width="167.5" height="120" as="geometry" />
+          <mxGeometry x="-385" y="470" width="167.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-98" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="340" y="510" as="sourcePoint" />
-            <mxPoint x="427.5" y="510" as="targetPoint" />
+            <mxPoint x="-470" y="520" as="sourcePoint" />
+            <mxPoint x="-382.5" y="520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="375" y="510" />
-              <mxPoint x="375" y="510" />
+              <mxPoint x="-435" y="520" />
+              <mxPoint x="-435" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-99" value=" Class Diagram 3: Transaction Management" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry y="770" width="320" height="40" as="geometry" />
+          <mxGeometry x="-810" y="780" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-101" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;&amp;nbsp;&lt;/b&gt;Transaction&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- TransacConId: int&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- BidId: int&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- TransactionType: nvarchar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Status: nvarchar&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- ShippingPrice: decimal&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- FinalAmount: decimal&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Receipt: nvarchar&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- TDate: DateCme&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- BidderId: nvarchar&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ProcessTransaction(paymentMethod: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+UpdateTransactionStatus(transactionId: int, newStatus: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+GetTransactionDetails(transactionId: int): +TransactionDetails&lt;br/&gt; - GenerateReceipt(transacConId: int): nvarchar&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="21.25" y="820" width="337.5" height="270" as="geometry" />
+          <mxGeometry x="-788.75" y="830" width="337.5" height="270" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-102" value="&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;&amp;lt;&amp;lt;preconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-  Bid is closed and paymentMethod is valid().&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-  Transaction exists()&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color); text-align: left;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;lt;&amp;lt;Postconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-  Transaction is processed successfully()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-  Transaction status is updated()&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="410" y="950" width="260" height="140" as="geometry" />
+          <mxGeometry x="-400" y="960" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-103" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="362.5" y="1040" as="sourcePoint" />
-            <mxPoint x="410" y="1040" as="targetPoint" />
+            <mxPoint x="-447.5" y="1050" as="sourcePoint" />
+            <mxPoint x="-400" y="1050" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="362.5" y="1040" />
+              <mxPoint x="-447.5" y="1050" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-104" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp;TransactionDetails&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;-Bid: Bid&lt;br&gt;-  Transaction: Transaction&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;+ DisplayDetails(): void&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="450" y="820" width="167.5" height="120" as="geometry" />
+          <mxGeometry x="-360" y="830" width="167.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-105" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="358.75" y="879.5" as="sourcePoint" />
-            <mxPoint x="446.25" y="879.5" as="targetPoint" />
+            <mxPoint x="-451.25" y="889.5" as="sourcePoint" />
+            <mxPoint x="-363.75" y="889.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-108" value="  Class Diagram 4: User Management" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry y="1130" width="320" height="60" as="geometry" />
+          <mxGeometry x="-810" y="1140" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-109" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;&amp;nbsp;&lt;/b&gt; &lt;b&gt;Wishlist&lt;/b&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Id: int&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- BidId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- UserId: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ AddToWishlist(userId: int, bidId: int): void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+RemoveFromWishlist(wishlistId: int): void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+GetWishlist(userId: int): List &amp;lt;Bid&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="37.5" y="1190" width="252.5" height="160" as="geometry" />
+          <mxGeometry x="-772.5" y="1200" width="252.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-110" value="&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;&amp;lt;&amp;lt;preconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-   Bid exists, and not already in the wishlist().&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-   Wishlist item exists.()&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color); text-align: left;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;lt;&amp;lt;Postconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-   Bid is added to the wishlist)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-   Item is removed from the wishlist)&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1260" width="270" height="130" as="geometry" />
+          <mxGeometry x="-460" y="1270" width="270" height="130" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-114" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="1310" as="sourcePoint" />
-            <mxPoint x="350" y="1310" as="targetPoint" />
+            <mxPoint x="-520" y="1320" as="sourcePoint" />
+            <mxPoint x="-460" y="1320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="1310" />
+              <mxPoint x="-520" y="1320" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-115" value="   Class Diagram 5: User" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry y="1410" width="240" height="60" as="geometry" />
+          <mxGeometry x="-810" y="1420" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-116" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;&amp;nbsp;&amp;nbsp;User&lt;/b&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;-UserId: int&lt;br&gt;&amp;nbsp;- Username: nvarchar&lt;br&gt;&amp;nbsp;- Email: nvarchar&lt;br&gt;&amp;nbsp;- Password: nvarchar&lt;br&gt;&amp;nbsp;- UserType: nvarchar&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ Register(username: nvarchar, email: nvarchar, password: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ Login(username: nvarchar, password: nvarchar): bool&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ UpdateProfile(userId: int, newUsername: nvarchar, newEmail: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ChangePassword(userId: int, newPassword: nvarchar): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1460" width="280" height="260" as="geometry" />
+          <mxGeometry x="-800" y="1470" width="280" height="260" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-117" value="&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;&amp;lt;&amp;lt;preconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-    Username and email are unique.().&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-    User credenCals are valid()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- User exists and newUsername/newEmail are unique()&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color); text-align: left;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;lt;&amp;lt;Postconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-    User is registered successfully()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- User is logged in successfully()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- User profile is updated successfully&lt;br&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="352.5" y="1560" width="290" height="160" as="geometry" />
+          <mxGeometry x="-457.5" y="1570" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-118" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="1649" as="sourcePoint" />
-            <mxPoint x="350" y="1649" as="targetPoint" />
+            <mxPoint x="-520" y="1659" as="sourcePoint" />
+            <mxPoint x="-460" y="1659" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="1649" />
+              <mxPoint x="-520" y="1659" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-120" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;&amp;nbsp;&lt;/b&gt; Category&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;- CategoryId: int&lt;br&gt;&amp;nbsp;- CategoriesName: nvarchar&lt;br&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ AddCategory(categoryName: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ UpdateCategory(categoryId: int, newCategoryName: nvarchar): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ DeleteCategory(categoryId: int): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ GetCategories(): List &amp;lt;Category&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1800" width="260" height="190" as="geometry" />
+          <mxGeometry x="-780" y="1810" width="260" height="190" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-121" value="&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;&amp;lt;&amp;lt;preconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-     Category name is unique().&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-    Category exists and newCategoryName is unique()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-  Category exists()&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color); text-align: left;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;lt;&amp;lt;Postconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-     Category is added successfully.)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-  Category is updated successfully.()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-  Category is deleted successfully()&lt;br&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="347.5" y="1830" width="290" height="160" as="geometry" />
+          <mxGeometry x="-462.5" y="1840" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-122" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="1910" as="sourcePoint" />
-            <mxPoint x="350" y="1910" as="targetPoint" />
+            <mxPoint x="-520" y="1920" as="sourcePoint" />
+            <mxPoint x="-460" y="1920" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="1910" />
+              <mxPoint x="-520" y="1920" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-123" value="    Class Diagram 6: Category Management" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry y="1740" width="290" height="60" as="geometry" />
+          <mxGeometry x="-810" y="1750" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-124" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.645;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.886;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="toqwwro1pnexpCAOvcfP-61" target="toqwwro1pnexpCAOvcfP-94">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="260" y="360" as="sourcePoint" />
-            <mxPoint x="420" y="360" as="targetPoint" />
+            <mxPoint x="-550" y="370" as="sourcePoint" />
+            <mxPoint x="-390" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-126" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="toqwwro1pnexpCAOvcfP-116" target="toqwwro1pnexpCAOvcfP-109">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="200" y="1400" as="sourcePoint" />
-            <mxPoint x="158" y="1494" as="targetPoint" />
+            <mxPoint x="-610" y="1410" as="sourcePoint" />
+            <mxPoint x="-652" y="1504" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-129" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;&amp;nbsp; User&lt;/b&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;-UserId: 33701598&lt;br&gt;&amp;nbsp;- Username: Karl Max&lt;br&gt;&amp;nbsp;- Email: kalmax@gmail.com&lt;br&gt;&amp;nbsp;- Password: ***********&lt;br&gt;&amp;nbsp;- UserType: Buyer&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ Register(username: nvarchar, email: nvarchar, password: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ Login(username: nvarchar, password: nvarchar): bool&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ UpdateProfile(userId: int, newUsername: nvarchar, newEmail: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ChangePassword(userId: int, newPassword: nvarchar): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="60" y="2090" width="280" height="260" as="geometry" />
+          <mxGeometry x="-750" y="2100" width="280" height="260" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-130" value="Object Diagram in Action Sample: User Object Diagram&amp;nbsp;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="37.5" y="2040" width="322.5" height="50" as="geometry" />
+          <mxGeometry x="-772.5" y="2050" width="322.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
