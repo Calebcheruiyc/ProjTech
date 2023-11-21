@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T05:31:04.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HaMMGmZ8F78NtsiMyY7Y" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T05:35:36.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6HJPxILth09cF0jFIHTU" version="22.1.3" type="github">
   <diagram name="Page-1" id="OG9XARLu_X4fbzeJdVaa">
     <mxGraphModel dx="1708" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -166,6 +166,12 @@
             <mxPoint x="200" y="1400" as="sourcePoint" />
             <mxPoint x="158" y="1494" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="toqwwro1pnexpCAOvcfP-129" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;&amp;nbsp; User&lt;/b&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;-UserId: 33701598&lt;br&gt;&amp;nbsp;- Username: Karl Max&lt;br&gt;&amp;nbsp;- Email: kalmax@gmail.com&lt;br&gt;&amp;nbsp;- Password: ***********&lt;br&gt;&amp;nbsp;- UserType: Buyer&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ Register(username: nvarchar, email: nvarchar, password: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ Login(username: nvarchar, password: nvarchar): bool&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ UpdateProfile(userId: int, newUsername: nvarchar, newEmail: nvarchar): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ChangePassword(userId: int, newPassword: nvarchar): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2090" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="toqwwro1pnexpCAOvcfP-130" value="Object Diagram in Action Sample: User Object Diagram&amp;nbsp;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="2040" width="322.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
