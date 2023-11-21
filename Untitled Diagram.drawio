@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T05:40:51.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pq82PHUwWhCwrSrbzxVd" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T05:42:28.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Tr0tPt9iPbD0Pvgk9sIK" version="22.1.3" type="github">
   <diagram name="Page-1" id="OG9XARLu_X4fbzeJdVaa">
     <mxGraphModel dx="1708" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,19 +17,19 @@
           <mxGeometry x="-772.5" y="90" width="315" height="240" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-81" value="&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;&amp;lt;&amp;lt;preconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product details are valid and not already existing()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;- Product exists in the system()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color); text-align: left;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&amp;lt;&amp;lt;Postconditions&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product is successfully added to the system()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product details are updated()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;-Product is removed from the system()&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="240" width="280" height="150" as="geometry" />
+          <mxGeometry x="-390" y="230" width="280" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="toqwwro1pnexpCAOvcfP-88" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="toqwwro1pnexpCAOvcfP-88" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="toqwwro1pnexpCAOvcfP-81">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-457.5" y="280" as="sourcePoint" />
-            <mxPoint x="-397.5" y="280" as="targetPoint" />
+            <mxPoint x="-397" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-457.5" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-90" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductDetails&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Product: Product&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- Images: List&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;+ DisplayDetails(): void&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="110" width="140" height="120" as="geometry" />
+          <mxGeometry x="-371.25" y="100" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-91" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -159,6 +159,9 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-550" y="370" as="sourcePoint" />
             <mxPoint x="-390" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-540" y="390" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toqwwro1pnexpCAOvcfP-126" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="toqwwro1pnexpCAOvcfP-116" target="toqwwro1pnexpCAOvcfP-109">
